@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display : flex;
+    flex-direction: column;  /*요소들을 세로로 정렬*/
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    text-align: center;
+    width: 100%;
+    background-color: rgb(10, 10, 249);
+    color: white; 
+    padding: 1rem;
+}
+.word-display {
+    margin-top: 3rem;
+    font-size: 80px;
+    color : rgb(10, 10, 249);
+}
+.word-input-box {
+    margin-top: 2rem;
+}
+.word-input {
+    padding: 0.5rem;
+    width: 300px;
+}
+.game-info {
+    width: 200px;
+    margin-top: 2rem;
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+}
+.time, .score {
+    font-size: 30px;
+}
+.btn {
+    width: 200px;
+    height: 35px;
+    text-align: center;
+    background-color: rgb(10, 10, 249) ;
+    color: white;
+    margin-top: 3rem;
+    cursor: pointer;
+    border: none;
+    padding: 5px;
+}
+.loading {
+    background-color: #ccc;
+    cursor: not-allowed;
+}

@@ -49,7 +49,7 @@ function init() {
 }
 
 
-btn.addEventListener('click', (e) => {
+btn.addEventListener('click', (e) => { // 게임 시작 버튼
     if (isPlaying) {
         return;
     }
@@ -69,7 +69,7 @@ btn.addEventListener('click', (e) => {
 })
 
 
-function countDown() {
+function countDown() { //게임이 시작하면 카운트다운도 
     time > 0 ? time -= 1 : isPlaying = false;
     timeDisplay.innerText = time;
     if (!isPlaying) {
@@ -77,10 +77,10 @@ function countDown() {
     }
 }
 
-function btnChange(text) {
+function btnChange(text) { // 게임이 시작이냐 중단이냐에 따라 버튼의 스타일 변경
     btn.innerText = text;
     text === '게임시작' ? btn.classList.remove('loading') : btn.classList.add('loading')
-} // 게임이 시작이냐 중단이냐에 따라 버튼의 스타일 변경
+} 
 
 function checkStatus() { // 게임이 끝났는지 확인
     if (!isPlaying && time === 0) {

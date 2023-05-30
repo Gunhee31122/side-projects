@@ -10,7 +10,7 @@ body 태그에 display : flex를 걸고 flex-direction: column /  justify-conten
 5. 버튼 태그에 버튼 자체를 만드는 btn클래스와 로딩 중일때의 효과를 만드는 loading 두가지 클래스를 이용하여 탈부착식으로 기능을 개발할 수 있음
 
 6. innerText 와 innerHTML의 차이
-전자는 text내용 그대로 이고 html은 html의 형식대로 가로 정렬 등이 반영됨
+전자는 text내용 그자체이고 html은 html의 형식대로 가로 정렬 등이 반영됨
 
 7. 인터벌은 실행한 후 clearInterval로 종료해야하는 이유는? => 계속 실행되기 때문에
 

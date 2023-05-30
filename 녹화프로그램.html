@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recoding</title>
+    <link rel="stylesheet" href="./녹화프로그램.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="btn-container">
+            <button class = "record-btn">녹화</button>
+            <button class = "stop-btn">중지</button>
+            <button class = "play-btn">녹화보기</button>
+            <a href="#" class="download-btn">다운로드</a>
+        </div>
+        <div class="video-container">
+            <div class="video-item">
+                <h2>미리보기</h2>
+                <video autoplay muted id = 'preview'></video>
+            </div>
+            <div class="video-item">
+                <h2>미리보기</h2>
+                <video id ="recording"></video>
+            </div>
+        </div>
+    </div>
+
+    <script src="./녹화프로그램.js"></script>
+</body>
+</html>
